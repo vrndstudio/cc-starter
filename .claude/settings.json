@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install:*)",
+      "Bash(pnpm i:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm remove:*)",
+      "Bash(pnpm update:*)",
+      "Bash(pnpm dlx:*)",
+      "Bash(pnpm exec:*)",
+      "Bash(pnpm run:*)",
+      "Bash(pnpm dev:*)",
+      "Bash(pnpm build:*)",
+      "Bash(pnpm start:*)",
+      "Bash(pnpm test:*)",
+      "Bash(pnpm lint:*)",
+      "Bash(pnpm format:*)",
+      "Bash(pnpm typecheck:*)",
+      "Bash(pnpm create:*)",
+
+      "Bash(npx:*)",
+      "Bash(ncu:*)",
+      "Bash(bun:*)",
+      "Bash(bunx:*)",
+
+      "Bash(node:*)",
+      "Bash(tsc:*)",
+      "Bash(tsx:*)",
+
+      "Bash(oxlint:*)",
+      "Bash(oxfmt:*)",
+      "Bash(vitest:*)",
+      "Bash(eslint:*)",
+      "Bash(prettier:*)",
+
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(grep *)",
+      "Bash(rg *)",
+      "Bash(wc *)",
+      "Bash(mkdir *)",
+      "Bash(touch *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git tag:*)",
+      "Bash(git fetch:*)",
+      "Bash(git config:*)",
+      "Bash(git switch *)"
+    ]
+  }
+}
