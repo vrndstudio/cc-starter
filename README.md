@@ -6,7 +6,7 @@ Bare-bones starting point for a new project on a [dropkit-starter-cc](https://gi
 
 ```bash
 # 1. Clone as your new project (drop the template's git history)
-git clone https://github.com/<user>/cc-starter.git my-new-project
+git clone https://github.com/vrndstudio/cc-starter.git my-new-project
 cd my-new-project
 rm -rf .git && git init
 
@@ -15,7 +15,6 @@ pnpm create next-app . --typescript      # or:
 pnpm create vite . --template react-ts   # or any other generator
 
 # 3. Fill in CLAUDE.md with project specifics
-$EDITOR CLAUDE.md
 
 # 4. Open Claude Code in this directory and install plugins (below)
 ```
@@ -54,8 +53,6 @@ Paste the following slash commands inside a Claude Code session in this director
 ```
 
 Browse the marketplace for additional skills relevant to your project.
-
-[ list settings json plugins ]
 
 ### agent-browser
 
