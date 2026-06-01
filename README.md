@@ -46,10 +46,24 @@ Paste the following slash commands inside a Claude Code session in this director
 ```
 
 ```
-/plugin install skill-creator@claude-plugins-official superpowers@claude-plugins-official frontend-design@claude-plugins-official code-review@claude-plugins-official code-simplifier@claude-plugins-official
+/plugin install superpowers@claude-plugins-official
+/plugin install skill-creator@claude-plugins-official
+/plugin install frontend-design@claude-plugins-official
+/plugin install code-review@claude-plugins-official
+/plugin install code-simplifier@claude-plugins-official
 ```
 
 Browse the marketplace for additional skills relevant to your project.
+
+[ list settings json plugins ]
+
+### agent-browser
+
+```
+npm install -g agent-browser # first
+/plugin marketplace add vercel-labs/agent-browser
+/plugin install agent-browser@agent-browser
+```
 
 ### caveman (compressed I/O)
 
