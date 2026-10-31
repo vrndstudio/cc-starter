@@ -76,6 +76,28 @@ npm install -g agent-browser # first
 /plugin install claude-mem
 ```
 
+---
+
+```
+  "enabledPlugins": {
+    "skill-creator@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true,
+    "frontend-design@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "code-simplifier@claude-plugins-official": true,
+    "caveman@caveman": true,
+    "claude-mem@thedotmack": true,
+    "context7@claude-plugins-official": true,
+    "claude-md-management@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true,
+    "figma@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
+    "agent-browser@agent-browser": true
+  },
+```
+
 ## References
 
 - [dropkit-starter-cc](https://github.com/vincentreynaud/dropkit-starter-cc) — droplet env bootstrap
