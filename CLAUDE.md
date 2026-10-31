@@ -66,6 +66,10 @@ Claude may ask to use `agent-browser` CLI to drive browser checks. Don't use Pla
 - `pnpm lint` — oxlint
 - `pnpm test` — Vitest suite
 
+### Branches
+
+- use feature branches for development, not worktrees
+
 ### Skills
 
 - **Always use the `frontend-design` skill** for any task involving HTML, CSS, JavaScript, React, Vue, components, pages, layouts, or styling. This is non-negotiable, even for small edits.
